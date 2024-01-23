@@ -63,13 +63,6 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 Notification:Notify(
-    {Title = "Project V!", Description = "Executed!"},
+    {Title = "Fsploit", Description = "Executed!"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
-)
-wait(1)
-Notification:Notify(
-    {Title = "Project V!", Description = "Made by Fsploit "},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
-    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
-)
